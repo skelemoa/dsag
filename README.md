@@ -39,12 +39,6 @@ $ python ./Data_preprocessing/map_2_persons.py
 
 **step 3**
 In this step we apply optimization based temporal consistency,
-```
-$ python txt2npy.py
-```
-
-**Step 4**
-In this step we extract the root trajectory from the NTU Kinect dataset and map with `NTU-VIBE` dataset.
  ```
 $ python ./Data_preprocessing/preprocess_finger_motion_2_person.py
 ```
