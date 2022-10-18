@@ -21,7 +21,7 @@ We introduce DSAG, a controllable deep neural framework for action-conditioned g
 $ pip install -r requirements.txt 
 ```
 
-#### Data Preprocessing 
+### Data Preprocessing 
 ##### NTU-Xpose dataset
 We derive `NTU-Xpose` dataset for our experiments on NTU dataset. To extract NTU-Xpose dataset, [ExPose](https://github.com/vchoutas/expose) pose estimation used on the `NTU RGBD-120` dataset. But [ExPose](https://github.com/vchoutas/expose) extracts only the local pose i.e. human pose with respect to the root joint. For Extracting position of human pose at the global trajectory we use NTU-120 kinect dataset. The whole process of data preprocessing is demonstrated below.
 
