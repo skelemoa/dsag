@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 
 ### Data Preprocessing 
 ##### NTU-Xpose dataset
-We derive `NTU-Xpose` dataset for our experiments on NTU dataset. To extract NTU-Xpose dataset, [ExPose](https://github.com/vchoutas/expose) pose estimation used on the `NTU RGBD-120` dataset. But [ExPose](https://github.com/vchoutas/expose) extracts only the local pose i.e. human pose with respect to the root joint. For Extracting position of human pose at the global trajectory we use NTU-120 kinect dataset. The whole process of data preprocessing is demonstrated below.
+We derive `NTU-Xpose` dataset for our experiments on the NTU dataset. To extract NTU-Xpose dataset, [ExPose](https://github.com/vchoutas/expose) pose estimation used on the `NTU RGBD-120` dataset. But [ExPose](https://github.com/vchoutas/expose) extracts only the local pose, i.e. human pose, with respect to the root joint. For Extracting the position of the human pose at the global trajectory, we use the NTU-120 Kinect dataset. The whole process of data preprocessing is demonstrated below.
 
 **Step 1:**
 Extract `NTU RGBD-120` skeleton using [ExPose](https://github.com/vchoutas/expose) pose estimation, and place it in `./dataset/smpl` directory. Then run the following,
@@ -32,7 +32,7 @@ $ mkdir -p dataset/smpl/
 $ python ./Data_preprocessing/data_preprosessing_2_persons_init_75.py 
 ```
  **Step 2**
- Run the following for extracting nad mapping root trajectory from 'NTU-120' dataset.
+ Run the following for extracting and mapping root trajectory from 'NTU-120' dataset.
  ```
 $ python ./Data_preprocessing/map_2_persons.py 
 ```
