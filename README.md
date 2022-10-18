@@ -46,7 +46,7 @@ $ python ./Data_preprocessing/preprocess_finger_motion_2_person.py
 
 ### Training
 **You can skip this step if you want to use our pretrained model.**
-To train DSAG from scratch run `pose.py`. Details of DSAG model can be found in `model/`. For training DSAG run the following,
+To train DSAG from scratch run `pose.py`. Details of DSAG model can be found in `checkpoints/`. For training DSAG run the following,
  ```
 $ python pose.py
 ```
