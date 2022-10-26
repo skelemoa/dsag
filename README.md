@@ -1,5 +1,5 @@
 # DSAG
-The official pytorch implementation of [**DSAG: A Scalable Deep Framework for Action-Conditioned Multi-Actor Full Body Motion Synthesis**](https://arxiv.org/abs/2110.11460), [WACV 2023](https://wacv2023.thecvf.com/home).
+The official pytorch implementation of [**DSAG: A Scalable Deep Framework for Action-Conditioned Multi-Actor Full Body Motion Synthesis**](https://drive.google.com/file/d/1JvniutD5LdjLjRtsZZq464_m2IN0RNHr/view?usp=sharing), [WACV 2023](https://wacv2023.thecvf.com/home).
 Please visit our [**webpage**](https://skeleton.iiit.ac.in/dsag) for more details.
 
 <img src = "images/Intro_diagram.jpg" />
