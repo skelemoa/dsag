@@ -53,7 +53,7 @@ $ python pose.py
 
 
 ### Visualization
-If you want to play with pretrained DSAG model please see `visualization.ipynb`. 
+If you want to play with pretrained DSAG model please see `visualization.ipynb` or the [cloab notebook](https://colab.research.google.com/drive/15SORDSTLk4ggxkvGfWXb-k9OAzoEPCwk?usp=sharing)
 
 
 
